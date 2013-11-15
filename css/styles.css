@@ -1,0 +1,178 @@
+/*---------------------------------------------------gris de imagenes----------------------*/
+.grises img {
+filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+filter: Gray(); /* IE4-8 and 9 */
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.grises img:hover { 
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+filter: none;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+/*------------------------------------------------fin de gris de imagenes---------------------------*/
+
+/*-----------------------------------------------logo-----------------------------*/
+.logo_slider{
+
+position: absolute !important;
+width: 20%;
+z-index: 10;
+top: 10px !important;
+max-width: 20%;
+min-height: 10%;
+height: 90% !important;
+min-width: 10% !important;
+right: 80% !important;
+left: 75% !important;
+opacity: 0.8;
+}
+
+/*----------------------------------------------logo fin */
+
+
+/*-------------------------------------------------redes sociales-----------------------*/
+.navbar .nav {
+	float: right;
+}
+
+
+.navbar-search{
+	margin-top: 18px;
+}
+
+.navbar-search .search-query {
+	padding: 4px 15px 4px 20px;
+}
+
+
+.navbar-search .search-query form, input{
+	padding-left: 965px;
+}
+/*-----------------------------------------------fin redes----------------------------------------*/
+
+/*-----------------menu de navegacion---------------------*/
+.navbar-wrapper {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  z-index: 11;
+	  margin-top: 310px;
+	  margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+	}
+
+.navbar .brand {
+	  padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+	  font-size: 19px;
+	  font-weight: bold;
+	  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	}
+
+.navbar-inverse .brand {
+	color: #FFFF83;
+}
+
+div.navbar-inverse div.navbar-inner.color_degradado2{
+    background: rgb(26,78,156); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+	background: -moz-linear-gradient(top, rgba(26,78,156,1) 0%, rgba(0,108,216,1) 50%, rgba(26,78,156,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(26,78,156,1)), color-stop(50%,rgba(0,108,216,1)), color-stop(100%,rgba(26,78,156,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4e9c', endColorstr='#1a4e9c',GradientType=0 ); /* IE6-8 */
+
+}
+.navbar-inverse .nav li > a{
+	  color: black;
+	  font-weight: bolder;
+	  font-family: arial;
+	  font-style: italic;
+	  font-size: 16px;
+	  color: #FFFFFF;
+	  text-decoration: none;
+	  display: block;
+	  margin: 0;
+	  border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  text-shadow: 2px 1px 7px #000000;
+
+}
+.navbar .nav > li > a {
+	  padding: 15px 20px;
+}
+
+.navbar-inverse .nav li > a:hover,
+	.navbar-inverse .nav .active > a:hover{
+	  text-shadow: 0px 0px 1px #FFFFFF, 0px 0px 1px #FFFFFF, 0px 0px 1px #FFFFFF !important;
+}
+
+
+/*----------------fin menu---------------------------------*/
+
+/*----------------------------- INICIO SLIDER---------------------------*/
+.slider{
+
+	color:black;
+	float:left;
+	height: 230px;
+	margin-top: 65px;
+	margin-bottom: 60px;
+	width: 100%;
+	
+	
+}
+.carousel img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 100%;
+}
+.imgservi li  a, img{
+
+	border: 0 none;
+    
+    max-width: 100%;
+    vertical-align: middle;
+}
+.carousel .item {
+	  height: 250px;
+}
+
+/*--------------------------footer------------------------*/
+.fondo_pie_2{
+			background-image: -webkit-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(5, 83, 145) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(5, 83, 145) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(5, 83, 145) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(5, 83, 145) 100%);
+	background-image: linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(5, 83, 145) 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.16, rgb(0, 48, 105)), color-stop(0.69, rgb(5, 83, 145)) );
+}
+
+#footer {
+		color:#FFFF83;
+}
+/*---------------------fin FOOTER-------------------------*/
