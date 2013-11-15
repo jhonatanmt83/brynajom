@@ -125,10 +125,10 @@ div.navbar-inverse div.navbar-inner.color_degradado2{
 	  padding: 15px 20px;
 }
 
-.navbar .brand {
+/*.navbar .brand {
 	color:white;
 }
-
+/*/
 .navbar-inverse .nav li > a:hover,
 	.navbar-inverse .nav .active > a:hover{
 	  text-shadow: 0px 0px 1px #FFFFFF, 0px 0px 1px #FFFFFF, 0px 0px 1px #FFFFFF !important;
@@ -139,16 +139,17 @@ border-width: 0 0 0px;
 
 
 .navbar-inner{
-	background: rgb(26,78,156); /* Old browsers */
+	/*background: rgb(26,78,156); /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 
-	background: -moz-linear-gradient(top, rgba(26,78,156,1) 0%, rgba(0,108,216,1) 50%, rgba(26,78,156,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(26,78,156,1)), color-stop(50%,rgba(0,108,216,1)), color-stop(100%,rgba(26,78,156,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4e9c', endColorstr='#1a4e9c',GradientType=0 ); /* IE6-8 */
+	/*background: -moz-linear-gradient(top, rgba(26,78,156,1) 0%, rgba(0,108,216,1) 50%, rgba(26,78,156,1) 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(26,78,156,1)), color-stop(50%,rgba(0,108,216,1)), color-stop(100%,rgba(26,78,156,1))); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4e9c', endColorstr='#1a4e9c',GradientType=0 ); /* IE6-8 */
+	opacity: 0.8;
 
 
 }
@@ -161,7 +162,7 @@ border-width: 0 0 0px;
 	color:black;
 	float:left;
 	height: 230px;
-	margin-top: 65px;
+	margin-top: 69px;
 	margin-bottom: 60px;
 	width: 100%;
 	
@@ -205,7 +206,7 @@ border-width: 0 0 0px;
 
 /*aldo*/
 body{
-	background:	rgba(126, 126, 129, 0.28);
+	background:	white;
 }
 .grupo-servicios{
 	
@@ -229,9 +230,9 @@ body{
 .bordeado1:hover{
 	
 	
-	-moz-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	-webkit-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
+	-moz-box-shadow: 0px 0px 3px 8px  red;
+	-webkit-box-shadow: 0px 0px 3px 8px  red;
+	box-shadow: 0px 0px 3px 8px  red;
 	transition: all 0.2s ease-in-out;
  
 }
@@ -239,48 +240,48 @@ body{
 .bordeado2:hover{
 	
 	
-	-moz-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	-webkit-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	transition: all 0.2s ease-in-out;
+	-moz-box-shadow: 0px 0px 3px 8px  rgb(21, 162, 21);
+	-webkit-box-shadow: 0px 0px 3px 8px  rgb(21, 162, 21);
+	box-shadow: 0px 0px 3px 8px  rgb(21, 162, 21);
+	transition: all 0.3s ease-in-out;
  
 }
 
 .bordeado3:hover{
 	
 	
-	-moz-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	-webkit-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	transition: all 0.2s ease-in-out;
+	-moz-box-shadow: 0px 0px 3px 8px  rgb(9, 9, 99);
+	-webkit-box-shadow: 0px 0px 3px 8px  rgb(9, 9, 99);
+	box-shadow: 0px 0px 3px 8px  rgb(9, 9, 99);
+	transition: all 0.3s ease-in-out;
  
 }
 
 .bordeado4:hover{
 	
 	
-	-moz-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	-webkit-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	transition: all 0.2s ease-in-out;
+	-moz-box-shadow: 0px 0px 3px 8px  rgb(218, 142, 214);
+	-webkit-box-shadow: 0px 0px 3px 8px  rgb(218, 142, 214);
+	box-shadow: 0px 0px 3px 8px  rgb(218, 142, 214);
+	transition: all 0.3s ease-in-out;
  
 }
 .bordeado5:hover{
 	
 	
-	-moz-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	-webkit-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	transition: all 0.2s ease-in-out;
+	-moz-box-shadow: 0px 0px 3px 8px  rgb(194, 182, 182);
+	-webkit-box-shadow: 0px 0px 3px 8px  rgb(194, 182, 182);
+	box-shadow: 0px 0px 3px 8px  rgb(194, 182, 182);
+	transition: all 0.3s ease-in-out;
  
 }
 .bordeado6:hover{
 	
 	
-	-moz-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	-webkit-box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	box-shadow: 0px 3px 3px 8px  rgba(233, 13, 48, 0.97);
-	transition: all 0.2s ease-in-out;
+	-moz-box-shadow: 0px 0px 3px 8px  #009fe7;
+	-webkit-box-shadow: 0px 0px 3px 8px  #009fe7;
+	box-shadow: 0px 0px 3px 8px  #009fe7;
+	transition: all 0.3s ease-in-out;
  
 }
 
@@ -386,6 +387,8 @@ color: rgb(248, 248, 248);
 } 
 .ac-color{
 background:#0C3158;
+color:white;
+padding: 3px;
 }
 .ac-small p{
 	padding: 4px 8px 0px 8px;
