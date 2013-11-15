@@ -16,7 +16,6 @@
     <!--<link rel="stylesheet" href="/static/css/bootstrap-responsive.min.css">-->
     
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/estilosd.css">
 
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
     <link href="css/no-more-tables.css" rel="stylesheet">
@@ -34,7 +33,7 @@
 <body>
     <!-- FirtNavbar -->
     <div class="container">
-        <div class="navbar navbar-fixed-top">
+        <div class="navbar navbar-fixed-top" >
             <div class="navbar-inner"> 
                 <div class="container">
                     <a href="#"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -154,47 +153,47 @@
                     <div class="row-fluid">
                         <div class="span8">
                             <h3 class="text-center content-titulo"> > PROYECTOS RECIENTES</h3>
-                            <section class="ac-container"> 
-                                <div class="ac-color"> 
-                                <input id="ac-1" name="accordion-1" type="checkbox" /> 
-                                <label for="ac-1">CONSTRUCCION DE CARRETERA</label> 
-                                <article class="ac-small"> 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    <a href="">leer mas</a>
-                                </article> 
-                                    </div> 
-                                    <div class="ac-color">
-                                    <input id="ac-2" name="accordion-1" type="checkbox" checked /> 
-                                        <label for="ac-2">CONSTRUCCION DE NUESTRO LOCAL</label> 
-                                        <article class="ac-small"> 
-                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <a href="">leer mas</a> 
-                                    </article> 
+                            <div class="accordion" id="noticias">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#noticias" href="#noti1">
+                                        Aca va el titulo de la noticia 01
+                                        </a>
                                     </div>
-                                    <div class="ac-color">
-                                    <input id="ac-2" name="accordion-1" type="checkbox" checked /> 
-                                        <label for="ac-2">CONSTRUCCION DE NUESTRO LOCAL</label> 
-                                        <article class="ac-small"> 
-                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <a href="">leer mas</a> 
-                                    </article> 
+                                    <div id="noti1" class="accordion-body collapse in">
+                                        <div class="accordion-inner">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                                            <a href="#" class='content-titulo'>Ver mas</a>
+                                        </div>
+                                    </div>
                                 </div>
-                           </section> 
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#noticias" href="#noti2">
+                                        Aca va el titulo de la noticia 02
+                                        </a>
+                                    </div>
+                                    <div id="noti2" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                                            <a href="#" class='content-titulo'>Ver mas</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#noticias" href="#noti3">
+                                        Aca va el titulo de la noticia 03
+                                        </a>
+                                    </div>
+                                    <div id="noti3" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                                            <a href="#" class='content-titulo'>Ver mas</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="span4">
                             <h3 class="text-center content-titulo"> > NOTICIAS</h3>
@@ -229,7 +228,7 @@
                     </div>
                     <div class="row-sluid">
                         <div class="span12">
-                            <h3 class='text-center'>Videos</h3>
+                            <h3 class='text-center content-titulo'>Videos</h3>
                             <div class="row-fluid">
                                 <div class="span6">
                                     <div class="thumbnail">
@@ -298,14 +297,33 @@
     </script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" charset="utf-8">
-    $('#myModal').modal('show');
-      $(window).load(function() {
-        
-        $('.flexslider').flexslider();
-        $('#myCarousel').carousel({
-            interval: 10000
+        $('#myModal').modal('show');
+            $(window).load(function() {
+
+            $('.flexslider').flexslider();
+            $('#myCarousel').carousel({
+                interval: 10000
+            });
         });
-      });
+        $(window).scroll(function(){
+            console.log($(window).scrollTop());
+            if($(window).scrollTop() >= 240) {
+                $( ".navbar-inner" ).addClass( "header-back" );
+            }else{
+                $( ".navbar-inner" ).removeClass( "header-back" );
+            }
+        });
     </script>
+    <style type="text/css">
+        .header-back{
+            background: rgba(255,255,255,1) !important;
+            transition: 0.3s all ease-in;
+            -webkit-transition: 0.3s all ease;
+            -moz-transition: 0.3s all ease;
+            -o-transition: 0.3s all ease;
+            opacity: 1.0;
+            border-bottom: 1px solid #D3D3D3;
+        }
+    </style>
 </body>
 </html>
