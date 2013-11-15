@@ -12,8 +12,12 @@
     
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
-    <!--<link rel="stylesheet" href="css/bootstrap-responsive.min.css">-->
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <!--<link rel="stylesheet" href="/static/css/bootstrap-responsive.min.css">-->
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/estilosd.css">
+
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
     <link href="css/no-more-tables.css" rel="stylesheet">
     <link href="css/unseen.css" rel="stylesheet">
@@ -26,6 +30,13 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
     <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
     <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+    <script src="js/jquery.akordeon.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#buttons').akordeon();
+            $('#button-less').akordeon({ buttons: false, toggle: true, itemsOrder: [2, 0, 1] });
+        });
+    </script>
 </head>
 <body>
     <!-- FirtNavbar -->
@@ -103,111 +114,127 @@
                 </div>
             </div>
         </div>
+
     </div>
+
     <!-- End Navigator -->
     <!-- ContenedorPrincipal -->
     <div class='container'>
-        <div class="span12">
         <div class="row-fluid">
-                <div class="span3 grupo-servicios">
-                <h3>SERVICIOS</h3>
-                     <div class="row-fluid cat-servicios">
+            <div class="span12">
+
+                <div class="span4">
+                    <h3 class='content-titulo text-center'> > SERVICIOS</h3>
+                    <div class="row-fluid ">
                         <div class="span6 color1">
-                            <h5>CARRETERAS PAVIMENTACION</h5>
-                            <img src="img/carr.jpg">
+                            <h5 class='text-center'>CARRETERAS PAVIMENTACION</h5>
+                            <img class='bordeado1 img-rounded'src="img/carr.jpg">
                         </div>
                         <div class="span6 color2">
-                            <h5>CARRETERAS PAVIMENTACION</h5>
-                            <img src="img/carr.jpg">
+                            <h5 class='text-center'>CARRETERAS PAVIMENTACION</h5>
+                            <img class='bordeado2 img-rounded' src="img/carr.jpg">
                         </div>
                     </div>
                     <div class="row-fluid">
                         <div class="span6 color3">
-                            <h5>CARRETERAS PAVIMENTACION</h5>
-                            <img src="img/carr.jpg">
+                            <h5 class='text-center'>CARRETERAS PAVIMENTACION</h5>
+                            <img class='bordeado3 img-rounded'src="img/carr.jpg">
                         </div>
                         <div class="span6 color4">
-                            <h5>CARRETERAS PAVIMENTACION</h5>
-                            <img src="img/carr.jpg">
+                            <h5 class='text-center'>CARRETERAS PAVIMENTACION</h5>
+                            <img class='bordeado4 img-rounded'src="img/carr.jpg">
                         </div>
                     </div>
                     <div class="row-fluid">
                         <div class="span6 color5">
-                            <h5>CARRETERAS PAVIMENTACION</h5>
-                            <img src="img/carr.jpg">
+                            <h5 class='text-center'>CARRETERAS PAVIMENTACION</h5>
+                            <img class='bordeado5 img-rounded'src="img/carr.jpg">
                         </div>
                         <div class="span6 color6">
-                            <h5>CARRETERAS PAVIMENTACION</h5>
-                            <img src="img/carr.jpg">
+                            <h5 class='text-center'>CARRETERAS PAVIMENTACION</h5>
+                            <img class='bordeado6 img-rounded'src="img/carr.jpg">
                         </div>
                     </div>    
                 </div>
             
 
-            <div class="span5 acordion">
-                <h3 class="text-center">PROYECTOS RECIENTES</h3>
-                <section class="ac-container"> 
-                    <div class="ac-color"> 
-                    <input id="ac-1" name="accordion-1" type="checkbox" /> 
-                    <label for="ac-1">CONSTRUCCION DE CARRETERA</label> 
-                    <article class="ac-small"> 
+                <div class="span5">
+                    <h3 class="text-center content-titulo"> > PROYECTOS RECIENTES</h3>
+                    <section class="ac-container"> 
+                        <div class="ac-color"> 
+                        <input id="ac-1" name="accordion-1" type="checkbox" checked /> 
+                        <label for="ac-1">CONSTRUCCION DE CARRETERA</label> 
+                        <article class="ac-small"> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <a href="">leer mas</a>
+                        </article> 
+                            </div> 
+                            <div class="ac-color">
+                            <input id="ac-2" name="accordion-1" type="checkbox" /> 
+                                <label for="ac-2">CONSTRUCCION DE NUESTRO LOCAL</label> 
+                                <article class="ac-small"> 
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="">leer mas</a> 
+                            </article> 
+                            </div>
+                         
+
+                   </section> 
+                </div>
+
+                <div class="span3">
+                    <h3 class="text-center content-titulo"> > NOTICIAS</h3>
+                    <div class="notice-title">
+                        <h5 class='text-center ac-color'>Aca va el titulo de la noticia 01</h5>
+
+                    </div>
+                    <div class="description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <a href="">leer mas</a>
-                    </article> 
-                        </div> 
-                        <div class="ac-color">
-                    <input id="ac-2" name="accordion-1" type="checkbox" checked /> 
-                        <label for="ac-2">CONSTRUCCION DE NUESTRO LOCAL</label> 
-                        <article class="ac-small"> 
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <a href="">leer mas</a> 
-                    </article> 
-                    </div> 
-               </section> 
-            </div>
+                        </p>
+                        <a href="#" class='content-titulo'>Ver mas</a>
 
-            <div class="span3 cont-nocicias">
-                <h3 class="text-center">NOTICIAS</h3>
-                <table class="table table-hover">
-                        <thead class="noticias-header">
-                            <tr>
-                                <th>noticias</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="noticias-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                </p><a href="">leer mas</a>
-                            </td>                            
-                        </tbody>
-                           <thead class="noticias-header">
-                            <tr>
-                                <th>noticias</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="noticias-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                </p><a href="">leer mas</a>
-                            </td>                            
-             
-                </table>
-            </div>
-</div>
-        </div>
-        </div>
+                    </div>
+
+                    <div class="notice-title">
+                        <h5 class='text-center ac-color'>Aca va el titulo de la noticia 02</h5>
+
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </p>
+                        <a href="#" class='content-titulo'>Ver mas</a>
+
+                    </div>
+                    <div class="notice-title">
+                        <h5 class='text-center ac-color'>Aca va el titulo de la noticia 03</h5>
+
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </p>
+                        <a href="#" class='content-titulo'>Ver mas</a>
+
+                    </div>
+                    
+                </div>
+
             </div>
         </div>
+    </div>
+    <div class='container'>
         <div class="row-fluid">
             <div class="span12">
                 <div class="jcarousel-wrapper">
@@ -238,10 +265,12 @@
     <div id="footer" class='fondo_pie_2'>
         <div class='container'>
             <div class="row-fluid">
-                <div class="span12">
-                    <div class="span6 text-center">
-                        <p>Desarrollado por Team Losung 2013</p>
-                    </div>
+                <div class="span12 text-center">
+
+                        
+
+                    <p>Copyright 2013. Brynajom S.R.L. All rights reserved.<br>Powered by TeamLosung.com</p>
+
                 </div>
             </div>
         </div>
