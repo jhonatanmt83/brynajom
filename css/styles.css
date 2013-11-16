@@ -30,6 +30,20 @@ transition: all 0.5s ease;
 
 /*------------------------------------------------fin de gris de imagenes---------------------------*/
 
+/*----------------------------------------- icon buscar en input ------------------------*/
+.input_icon{
+display: block;
+position: absolute;
+z-index: 1;
+background: url(../img/search.png);
+width: 16px;
+height: 16px;
+left: auto;
+top: 7px;
+right: 14px;
+}
+/*------------------------------- fin icon buscar -----------------------------------*/
+
 /*-----------------------------------------------logo-----------------------------*/
 .logo_slider{
 position: absolute !important;
