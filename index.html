@@ -21,7 +21,7 @@
     <link href="css/no-more-tables.css" rel="stylesheet">
     <link href="css/unseen.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css">
-    <script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.9.1.js"></script>
     <!--[if lt IE 9]>
         <script src="/static/js/modernizr.custom.js"></script>
     <![endif]-->
@@ -30,7 +30,6 @@
     <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
     <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
     <link rel="stylesheet" href="css/acordion.css" />
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="js/jquery.akordeon.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -302,28 +301,42 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" charset="utf-8">
         $('#myModal').modal('show');
-            $(window).load(function() {
+        $(window).load(function() {
             $('#myCarousel').carousel({
                 interval: 10000
             });
         });
         $(window).scroll(function(){
-            console.log($(window).scrollTop());
-            if($(window).scrollTop() >= 240) {
-                $( ".navbar-inner" ).addClass( "header-back" );
+            var alto_scroll = $(window).scrollTop();
+            if( alto_scroll > 0 && alto_scroll <= 240) {
+                $( ".navbar-inner" ).addClass( "opacity_bajo" );
+                $( ".color_degradado2" ).removeClass( "opacity_bajo" );
             }else{
-                $( ".navbar-inner" ).removeClass( "header-back" );
+                $( ".navbar-inner" ).removeClass( "opacity_bajo" );
             }
         });
+        $(function() {
+            $('.jcarousel').jcarousel({
+                animation: {
+                    duration: 800,
+                    easing:   'linear',
+                    complete: function() {}
+                },
+                wrap: 'both'
+            }).jcarouselAutoscroll({
+                interval: 5000
+            });;
+        });
+
     </script>
     <style type="text/css">
-        .header-back{
+        .opacity_bajo{
             /*background: rgba(255,255,255,1) !important;*/
             transition: 0.3s all ease-in;
             -webkit-transition: 0.3s all ease;
             -moz-transition: 0.3s all ease;
             -o-transition: 0.3s all ease;
-            opacity: 1.0;
+            opacity: 0.8;
             border-bottom: 1px solid #D3D3D3;
         }
     </style>
