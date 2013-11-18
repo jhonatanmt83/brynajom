@@ -823,9 +823,10 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #d3d3d3;
-	background: #575555; 
+	background: #8F7E05;
 	font-weight: normal;
 	color: #fff;
+	text-align: center
 }
 .ui-state-default a,
 .ui-state-default a:link,
@@ -840,9 +841,10 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #999999;
-	background: #333333;
-	font-weight: normal;
-	color: #fff;
+background: rgba(83, 72, 10, 0.97);
+font-weight: normal;
+color: #fff;
+}
 }
 .ui-state-hover a,
 .ui-state-hover a:hover,
@@ -854,10 +856,10 @@ body .ui-tooltip {
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	border: 1px solid #aaaaaa;
-	background: #333333; 
-	font-weight: normal;
+	background: #113A85;
+	font-weight: bold;
 	color: #fff;
+	text-align: center;
 }
 .ui-state-active a,
 .ui-state-active a:link,
