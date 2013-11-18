@@ -357,11 +357,12 @@
             });
         });
         $(window).scroll(function(){
-            console.log($(window).scrollTop());
-            if($(window).scrollTop() >= 240) {
-                $( ".navbar-inner" ).addClass( "header-back" );
+            var alto_scroll = $(window).scrollTop();
+            if( alto_scroll > 0 && alto_scroll <= 240) {
+                $( ".navbar-inner" ).addClass( "opacity_bajo" );
+                $( ".color_degradado2" ).removeClass( "opacity_bajo" );
             }else{
-                $( ".navbar-inner" ).removeClass( "header-back" );
+                $( ".navbar-inner" ).removeClass( "opacity_bajo" );
             }
         });
     </script>
@@ -397,13 +398,13 @@
         };
     </script>-->
     <style type="text/css">
-        .header-back{
+        .opacity_bajo{
             /*background: rgba(255,255,255,1) !important;*/
             transition: 0.3s all ease-in;
             -webkit-transition: 0.3s all ease;
             -moz-transition: 0.3s all ease;
             -o-transition: 0.3s all ease;
-            opacity: 1.0;
+            opacity: 0.8;
             border-bottom: 1px solid #D3D3D3;
         }
     </style>
