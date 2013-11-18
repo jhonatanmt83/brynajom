@@ -291,9 +291,9 @@ body{
 .bordeado1:hover{
 	
 	
-	-moz-box-shadow: 0px 0px 3px 8px  red;
-	-webkit-box-shadow: 0px 0px 3px 8px  red;
-	box-shadow: 0px 0px 3px 8px  red;
+	-moz-box-shadow: 0px 0px 3px 10px  red;
+	-webkit-box-shadow: 0px 0px 3px 10px  red;
+	box-shadow: 0px 0px 3px 10px  red;
 	transition: all 0.2s ease-in-out;
  
 }
@@ -301,9 +301,9 @@ body{
 .bordeado2:hover{
 	
 	
-	-moz-box-shadow: 0px 0px 3px 8px  rgb(21, 162, 21);
-	-webkit-box-shadow: 0px 0px 3px 8px  rgb(21, 162, 21);
-	box-shadow: 0px 0px 3px 8px  rgb(21, 162, 21);
+	-moz-box-shadow: 0px 0px 3px 10px  rgb(21, 162, 21);
+	-webkit-box-shadow: 0px 0px 3px 10px  rgb(21, 162, 21);
+	box-shadow: 0px 0px 3px 10px  rgb(21, 162, 21);
 	transition: all 0.3s ease-in-out;
  
 }
@@ -311,9 +311,9 @@ body{
 .bordeado3:hover{
 	
 	
-	-moz-box-shadow: 0px 0px 3px 8px  rgb(9, 9, 99);
-	-webkit-box-shadow: 0px 0px 3px 8px  rgb(9, 9, 99);
-	box-shadow: 0px 0px 3px 8px  rgb(9, 9, 99);
+	-moz-box-shadow: 0px 0px 3px 10px  rgb(9, 9, 99);
+	-webkit-box-shadow: 0px 0px 3px 10px  rgb(9, 9, 99);
+	box-shadow: 0px 0px 3px 10px  rgb(9, 9, 99);
 	transition: all 0.3s ease-in-out;
  
 }
@@ -321,27 +321,27 @@ body{
 .bordeado4:hover{
 	
 	
-	-moz-box-shadow: 0px 0px 3px 8px  rgb(218, 142, 214);
-	-webkit-box-shadow: 0px 0px 3px 8px  rgb(218, 142, 214);
-	box-shadow: 0px 0px 3px 8px  rgb(218, 142, 214);
+	-moz-box-shadow: 0px 0px 3px 10px  rgb(218, 142, 214);
+	-webkit-box-shadow: 0px 0px 3px 10px  rgb(218, 142, 214);
+	box-shadow: 0px 0px 3px 10px  rgb(218, 142, 214);
 	transition: all 0.3s ease-in-out;
  
 }
 .bordeado5:hover{
 	
 	
-	-moz-box-shadow: 0px 0px 3px 8px  rgb(194, 182, 182);
-	-webkit-box-shadow: 0px 0px 3px 8px  rgb(194, 182, 182);
-	box-shadow: 0px 0px 3px 8px  rgb(194, 182, 182);
+	-moz-box-shadow: 0px 0px 3px 10px  rgb(194, 182, 182);
+	-webkit-box-shadow: 0px 0px 3px 10px  rgb(194, 182, 182);
+	box-shadow: 0px 0px 3px 10px  rgb(194, 182, 182);
 	transition: all 0.3s ease-in-out;
  
 }
 .bordeado6:hover{
 	
 	
-	-moz-box-shadow: 0px 0px 3px 8px  #009fe7;
-	-webkit-box-shadow: 0px 0px 3px 8px  #009fe7;
-	box-shadow: 0px 0px 3px 8px  #009fe7;
+	-moz-box-shadow: 0px 0px 3px 10px  #009fe7;
+	-webkit-box-shadow: 0px 0px 3px 10px  #009fe7;
+	box-shadow: 0px 0px 3px 10px  #009fe7;
 	transition: all 0.3s ease-in-out;
  
 }
