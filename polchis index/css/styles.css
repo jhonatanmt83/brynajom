@@ -732,3 +732,36 @@ h2.resp-accordion:first-child {
 .contenedor-principal{
 	margin-top: 10px;
 }
+
+.title-contac{
+	color:#0f70b7;
+}
+
+#list3 { }
+#list3 ul { list-style-image: url("../img/arrow.png"); color:#6C99CA; font-size:12px; }
+#list3 ul li { 
+	line-height:20px;
+	margin: 5px;
+	background-color:#005580;
+	padding: 2px; 
+}
+
+#list3 ul li:hover { 
+	line-height:20px;
+	margin: 5px;
+	background-color:white;
+	padding: 2px; 
+}
+#list3 ul li > a{
+	color:white;
+}
+#list3 ul  a:hover{
+	color:black;
+}
+#list3 ul a{
+	color:white;
+}
+
+.descrip-contac{
+	color:rgb(92, 144, 238);
+}
