@@ -1,4 +1,6 @@
-
+body{
+	background: url(../img/fondobody.png);
+}
 
 
 
@@ -253,9 +255,7 @@ background: #1A4E9C;s
 /*---------------------fin FOOTER-------------------------*/
 
 /*aldo*/
-body{
-	background:	white;
-}
+
 .grupo-servicios{
 	
 	text-align: center;
@@ -820,4 +820,41 @@ h2.resp-accordion:first-child {
 }
 .countent-servicios{
 	background-color: white;
+}
+
+
+/*----------------------------------------------*/
+				/*clinetes*/
+
+.nombre-clien{
+	text-shadow: 1px 1px 0px rgba(230,230,230,1), 2px 2px 0px rgba(0, 0, 0, 1), 3px 3px 0px rgba(0, 0, 0, 1), 4px 4px 0px rgba(34, 16, 16, 1), 4px 4px 0px rgba(0, 0, 0, 1), 6px 5px 6px rgb(255, 255, 255);
+color: #fff;
+text-align: center;
+margin-top: 30px;
+}
+.rec-clien{
+background: rgb(4, 43, 126);
+text-align: center;
+padding-top: 12px;
+padding-bottom: 12px;
+border-radius: 19px 0px 19px 0px;
+box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.67);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+}
+.clien{
+	padding-bottom: 21px;
+}
+
+.rec-clien:hover{
+background: url(../img/fondobody.png);
+text-align: center;
+padding-top: 12px;
+padding-bottom: 12px;
+border-radius: 19px 0px 19px 0px;
+box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.67);
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
 }
