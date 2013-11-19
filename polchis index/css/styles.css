@@ -779,3 +779,17 @@ h2.resp-accordion:first-child {
 	float: left;
 	margin: 1em;
 }
+
+.teaser2 {
+	width: 860px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+.teaser2 img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
