@@ -29,6 +29,24 @@ transition: all 0.5s ease;
 }
 
 /*------------------------------------------------fin de gris de imagenes---------------------------*/
+/* --- JMT ------*/
+.titulo_proyecto{
+	background-color: #005580;
+	color: #f9f9f9 !important;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 15px 0 25px;
+	font-family: inherit;
+	font-weight: bold;
+	color: inherit;
+	text-rendering: optimizelegibility;
+	display: block;
+	padding: 0px 10px;
+}
+.proyecto_div li{
+	margin:10px 0px 0px 25px; 
+}
+/* --- END JMT ------*/
 
 /*----------------------------------------- icon buscar en input ------------------------*/
 .input_icon{
