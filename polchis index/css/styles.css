@@ -760,3 +760,22 @@ h2.resp-accordion:first-child {
 .descrip-contac{
 	color:rgb(92, 144, 238);
 }
+
+.teaser {
+	width: 860px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+.teaser img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#teaser-wrap .teaser {
+	float: left;
+	margin: 1em;
+}
