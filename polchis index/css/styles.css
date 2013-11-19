@@ -729,8 +729,10 @@ h2.resp-accordion:first-child {
 }
 
 .title-contac{
-	color:#0f70b7;
+	color:#F9FCFF;
 }
+
+/*================================00000 SERVICIOS 00000==================================*/
 
 #list3 { }
 #list3 ul { list-style-image: url("../img/arrow.png"); color:#6C99CA; font-size:12px; }
@@ -747,6 +749,16 @@ h2.resp-accordion:first-child {
 	background-color:white;
 	padding: 2px; 
 }
+
+.title-servicios{
+	line-height:20px;
+	margin: 5px;
+	background-color:#005580;
+	padding: 5px;
+	color:white;
+
+}
+
 #list3 ul li > a{
 	color:white;
 }
@@ -758,7 +770,7 @@ h2.resp-accordion:first-child {
 }
 
 .descrip-contac{
-	color:rgb(92, 144, 238);
+	color:rgb(196, 196, 196);
 }
 
 .teaser {
@@ -781,8 +793,8 @@ h2.resp-accordion:first-child {
 }
 
 .teaser2 {
-	width: 860px;
-	height: 500px;
+	width: 100%;
+	min-height: 480px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
@@ -792,4 +804,20 @@ h2.resp-accordion:first-child {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+.content-servicio {
+	padding: 60px;
+  	margin-bottom: 20px;
+  	font-size: 18px;
+  	font-weight: 200;
+  	line-height: 30px;
+  	color: inherit;
+  	background-color: #005580;
+  	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+/*background-color: #005580;*/
+}
+.countent-servicios{
+	background-color: white;
 }
