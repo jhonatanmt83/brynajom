@@ -1,5 +1,5 @@
 body{
-	background: url(../img/fondobody.png);
+	background: #F0F0F0;
 }
 
 
@@ -850,7 +850,7 @@ box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.67);
 	background-image: -ms-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
 	background-image: linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
 	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.16, rgb(0, 48, 105)), color-stop(0.69, rgb(26, 78, 156)) );
-	border-radius: 0px 0px 42px 0px;
+	border-radius: 0px 0px 15px 15px;
 
 }
 .cab-acord a{
@@ -950,7 +950,7 @@ box-shadow: 2px -2px 12px #000;
 	letter-spacing: 1px;
 	font-size: 13px;
 	margin: 0 9px;
-	padding: 5px 10px 4px 5px;
+	border-radius: 20px 20px 0px 0px;
 }
 
 .ch-info p {
@@ -1021,3 +1021,14 @@ background: rgba(11, 72, 138, 0.35);
 	margin: 12px 0;
 }
 /*-------------fin servicis1*/
+
+.collapse {
+position: relative;
+height: 0;
+overflow: hidden;
+-webkit-transition: height 0.35s ease;
+-moz-transition: height 0.35s ease;
+-o-transition: height 0.35s ease;
+transition: height 0.35s ease;
+border-radius: 0px 0px 15px 15px;
+}
