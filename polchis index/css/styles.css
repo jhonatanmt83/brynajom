@@ -728,7 +728,7 @@ h2.resp-accordion:first-child {
 }
 
 .title-contac{
-	color:#F9FCFF;
+	color:#0080FF;
 }
 
 /*================================00000 SERVICIOS 00000==================================*/
@@ -738,23 +738,24 @@ h2.resp-accordion:first-child {
 #list3 ul li { 
 	line-height:20px;
 	margin: 5px;
-	background-color:#005580;
+	background-color:#1A4E9C;
 	padding: 2px; 
 }
 
 #list3 ul li:hover { 
 	line-height:20px;
 	margin: 5px;
-	background-color:white;
+	background-color:rgba(248, 203, 58, 0.53);
 	padding: 2px; 
 }
 
 .title-servicios{
 	line-height:20px;
 	margin: 5px;
-	background-color:#005580;
+	background-color:#1A4E9C;
 	padding: 5px;
 	color:white;
+	border-radius: 5px 5px 0px 0px;
 
 }
 
@@ -766,10 +767,11 @@ h2.resp-accordion:first-child {
 }
 #list3 ul a{
 	color:white;
+	text-decoration: none;
 }
 
 .descrip-contac{
-	color:rgb(196, 196, 196);
+	color:rgb(69, 81, 102);
 }
 
 .teaser {
@@ -793,7 +795,7 @@ h2.resp-accordion:first-child {
 
 .teaser2 {
 	width: 100%;
-	min-height: 480px;
+	min-height: 600px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
@@ -805,13 +807,14 @@ h2.resp-accordion:first-child {
 	left: 0;
 }
 .content-servicio {
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 20px;
+	color: inherit;
 	padding: 60px;
   	margin-bottom: 20px;
-  	font-size: 18px;
-  	font-weight: 200;
-  	line-height: 30px;
-  	color: inherit;
-  	background-color: #005580;
+  	
+  	/*background-color: #005580;*/
   	-webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -906,3 +909,38 @@ box-shadow: 2px -2px 12px #000;
 .direccion{
 	background: black;
 }
+
+
+
+/* --- JMT ------*/
+.titulo_proyecto{
+	background-color: #005580;
+	color: #f9f9f9 !important;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 15px 0 25px;
+	font-family: inherit;
+	font-weight: bold;
+	color: inherit;
+	text-rendering: optimizelegibility;
+	display: block;
+	padding: 0px 10px;
+}
+.proyecto_div li{
+	margin:10px 0px 0px 25px; 
+}
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+	color: #ffffff;
+	background-color: transparent;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.0);
+	-moz-box-shadow: inset 0 px 0px rgba(0, 0, 0, 0.0);
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.0);
+	text-shadow: 0px 0px 1px #FFFFFF, 0px 0px 0px #FFFFFF, 0px 0px 0px #FFFFFF !important;
+}
+.brand:hover{
+	text-shadow: 0px 0px 1px #FAFA85, 
+	0px 0px 1px #FAFA85, 
+	0px 0px 1px #FAFA85 !important;
+	color: rgb(245, 245, 79) !important;
+}
+/* --- END JMT ------*/
