@@ -61,6 +61,19 @@ transition: all 0.5s ease;
 	0px 0px 1px #FAFA85 !important;
 	color: rgb(245, 245, 79) !important;
 }
+.enlace_tipoequipo{
+	min-height: 100px;
+	text-align: center;
+	border: solid 1px #333;
+	margin: 20px 30px;
+	vertical-align: middle;
+}
+.enlace_tipoequipo a{
+	vertical-align: middle;
+	margin-top: 40px;
+	margin-bottom: auto;
+	display: block;
+}
 /* --- END JMT ------*/
 
 /*----------------------------------------- icon buscar en input ------------------------*/
