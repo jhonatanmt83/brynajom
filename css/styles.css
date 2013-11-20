@@ -576,10 +576,6 @@ background-image: -ms-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(17, 102,
 background-image: linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(17, 102, 230) 100%);
 background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.16, rgb(0, 48, 105)), color-stop(0.69, rgb(17, 102, 230)) );
 }
-thead{
-	text-align: center;
-	color:white;
-}
 .noticias-body{
 	background: rgb(206, 206, 248);
 }
