@@ -1,5 +1,5 @@
 body{
-	background: url(../img/fondobody.png);
+	background: #F0F0F0;
 }
 
 
@@ -728,7 +728,7 @@ h2.resp-accordion:first-child {
 }
 
 .title-contac{
-	color:#0080FF;
+	color:#F9FCFF;
 }
 
 /*================================00000 SERVICIOS 00000==================================*/
@@ -738,25 +738,15 @@ h2.resp-accordion:first-child {
 #list3 ul li { 
 	line-height:20px;
 	margin: 5px;
-	background-color:#1A4E9C;
+	background-color:#005580;
 	padding: 2px; 
 }
 
 #list3 ul li:hover { 
 	line-height:20px;
 	margin: 5px;
-	background-color:rgba(248, 203, 58, 0.53);
+	background-color:white;
 	padding: 2px; 
-}
-
-.title-servicios{
-	line-height:20px;
-	margin: 5px;
-	background-color:#1A4E9C;
-	padding: 5px;
-	color:white;
-	border-radius: 5px 5px 0px 0px;
-
 }
 
 #list3 ul li > a{
@@ -767,11 +757,10 @@ h2.resp-accordion:first-child {
 }
 #list3 ul a{
 	color:white;
-	text-decoration: none;
 }
 
 .descrip-contac{
-	color:rgb(69, 81, 102);
+	color:rgb(196, 196, 196);
 }
 
 .teaser {
@@ -795,7 +784,7 @@ h2.resp-accordion:first-child {
 
 .teaser2 {
 	width: 100%;
-	min-height: 600px;
+	min-height: 480px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
@@ -807,18 +796,8 @@ h2.resp-accordion:first-child {
 	left: 0;
 }
 .content-servicio {
-	font-size: 14px;
-	font-weight: 200;
-	line-height: 20px;
-	color: inherit;
-	padding: 60px;
-  	margin-bottom: 20px;
-  	
-  	/*background-color: #005580;*/
-  	-webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-/*background-color: #005580;*/
+	padding: 16px;
+	line-height: 22px;
 }
 .countent-servicios{
 	background-color: white;
@@ -871,7 +850,7 @@ box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.67);
 	background-image: -ms-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
 	background-image: linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
 	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.16, rgb(0, 48, 105)), color-stop(0.69, rgb(26, 78, 156)) );
-	border-radius: 0px 0px 42px 0px;
+	border-radius: 0px 0px 15px 15px;
 
 }
 .cab-acord a{
@@ -906,41 +885,150 @@ box-shadow: 2px -2px 12px #000;
 .accordion-inner{
 	background: rgba(207, 158, 0, 0.18);
 }
-.direccion{
-	background: black;
+/*--------------servicio1-----------------------*/
+
+.ch-info-wrap, 
+.ch-info{
+	position: absolute;
+	width: 190px;
+	height: 180px;
+
 }
 
-
-
-/* --- JMT ------*/
-.titulo_proyecto{
-	background-color: #005580;
-	color: #f9f9f9 !important;
-	font-size: 20px;
-	line-height: 40px;
-	margin: 15px 0 25px;
-	font-family: inherit;
-	font-weight: bold;
-	color: inherit;
-	text-rendering: optimizelegibility;
+.ch-info > div {
 	display: block;
-	padding: 0px 10px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+	-webkit-backface-visibility: hidden;
 }
-.proyecto_div li{
-	margin:10px 0px 0px 25px; 
+
+.ch-info .ch-info-front {
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}	
+
+.ch-info .ch-info-back {
+	opacity: 0;
+
+	background: #01164E;
+	
+	
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	
+	-webkit-transition: all 0.4s ease-in-out 0.2s;
+	-moz-transition: all 0.4s ease-in-out 0.2s;
+	-o-transition: all 0.4s ease-in-out 0.2s;
+	-ms-transition: all 0.4s ease-in-out 0.2s;
+	transition: all 0.4s ease-in-out 0.2s;
 }
-.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
-	color: #ffffff;
-	background-color: transparent;
-	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.0);
-	-moz-box-shadow: inset 0 px 0px rgba(0, 0, 0, 0.0);
-	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.0);
-	text-shadow: 0px 0px 1px #FFFFFF, 0px 0px 0px #FFFFFF, 0px 0px 0px #FFFFFF !important;
+
+.ch-img-1 { 
+	background-image: url(../img/ser/carr.jpg);
 }
-.brand:hover{
-	text-shadow: 0px 0px 1px #FAFA85, 
-	0px 0px 1px #FAFA85, 
-	0px 0px 1px #FAFA85 !important;
-	color: rgb(245, 245, 79) !important;
+
+.ch-img-2 { 
+	background-image: url(../img/ser/msup.jpg);
 }
-/* --- END JMT ------*/
+
+.ch-img-3 { 
+	background-image: url(../img/ser/msub.jpg);
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin: 0 9px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.ch-info p {
+	margin-top: -7px;
+text-align: center;
+color: #DBE40C;
+font-size: 14px;
+}
+
+.ch-info p a {
+	color: #FF0600;
+font-size: 11px;
+}
+
+.ch-info p a:hover {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.ch-item:hover .ch-info-front {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	opacity: 0;
+} 
+
+.ch-item:hover .ch-info-back {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+
+}
+.ch-info-back a{
+	font-weight: bold;
+	color:white;
+	text-align: center;
+	font-size: 14px;
+}
+.cont-ser{
+padding: 0px 0px 34px 55px;
+background: rgba(11, 72, 138, 0.35);
+
+}
+.ch-info h4{
+	text-align: center;
+	background: rgb(158, 27, 27);
+	color: white;
+	font-size: 12px;
+	width: 191px;
+	height: 39px;
+}
+.ch-info{
+	margin: 12px 0;
+}
+/*-------------fin servicis1*/
+
+.collapse {
+position: relative;
+height: 0;
+overflow: hidden;
+-webkit-transition: height 0.35s ease;
+-moz-transition: height 0.35s ease;
+-o-transition: height 0.35s ease;
+transition: height 0.35s ease;
+border-radius: 0px 0px 15px 15px;
+}
