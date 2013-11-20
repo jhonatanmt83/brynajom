@@ -3,7 +3,6 @@ body{
 }
 
 
-
 /*---------------------------------------------------gris de imagenes----------------------*/
 .grises img {
 filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
@@ -857,4 +856,53 @@ box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.67);
 -webkit-transition: all 0.3s ease-out;
 -moz-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
+}
+
+.text-justify{
+	text-align: justify;
+}
+.cab-acord{
+	background-image: -webkit-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+	background-image: linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.16, rgb(0, 48, 105)), color-stop(0.69, rgb(26, 78, 156)) );
+	border-radius: 0px 0px 42px 0px;
+
+}
+.cab-acord a{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.menu-tab li{
+
+background-image: -webkit-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+background-image: -o-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+background-image: linear-gradient(bottom, rgb(0, 48, 105) 100%, rgb(26, 78, 156) 100%);
+background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.16, rgb(0, 48, 105)), color-stop(0.69, rgb(26, 78, 156)) );
+border-radius: 12px;
+}
+.menu-tab a{
+	color:white;
+	text-align:center;
+	font-weight: bold;
+	}
+.tab-content{
+	background: rgba(170, 182, 245, 0.44);
+padding: 5px 12px 11px 12px;
+border-radius: 12px;
+box-shadow: 2px -2px 12px #000;
+-moz-box-shadow: 2px -2px 12px #000;
+-webkit-box-shadow: 2px -2px 12px #000;
+}
+.accordion-inner{
+	background: rgba(207, 158, 0, 0.18);
+}
+.direccion{
+	background: black;
 }
