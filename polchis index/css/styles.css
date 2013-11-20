@@ -728,7 +728,7 @@ h2.resp-accordion:first-child {
 }
 
 .title-contac{
-	color:#0080FF;
+	color:#F9FCFF;
 }
 
 /*================================00000 SERVICIOS 00000==================================*/
@@ -738,30 +738,17 @@ h2.resp-accordion:first-child {
 #list3 ul li { 
 	line-height:20px;
 	margin: 5px;
-	background-color:#1A4E9C;
+	background-color:#005580;
 	padding: 2px; 
 }
 
 #list3 ul li:hover { 
 	line-height:20px;
 	margin: 5px;
-	background-color:rgba(248, 203, 58, 0.53);
+	background-color:white;
 	padding: 2px; 
 }
 
-<<<<<<< HEAD
-=======
-.title-servicios{
-	line-height:20px;
-	margin: 5px;
-	background-color:#1A4E9C;
-	padding: 5px;
-	color:white;
-	border-radius: 5px 5px 0px 0px;
-
-}
-
->>>>>>> 1f7f1f0f712a6d84ae2b1154b3ab147fd5c3b0c9
 #list3 ul li > a{
 	color:white;
 }
@@ -770,11 +757,10 @@ h2.resp-accordion:first-child {
 }
 #list3 ul a{
 	color:white;
-	text-decoration: none;
 }
 
 .descrip-contac{
-	color:rgb(69, 81, 102);
+	color:rgb(196, 196, 196);
 }
 
 .teaser {
@@ -798,7 +784,7 @@ h2.resp-accordion:first-child {
 
 .teaser2 {
 	width: 100%;
-	min-height: 600px;
+	min-height: 480px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
@@ -812,18 +798,6 @@ h2.resp-accordion:first-child {
 .content-servicio {
 	padding: 16px;
 	line-height: 22px;
-	font-size: 14px;
-	font-weight: 200;
-	line-height: 20px;
-	color: inherit;
-	padding: 60px;
-  	margin-bottom: 20px;
-  	
-  	/*background-color: #005580;*/
-  	-webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-/*background-color: #005580;*/
 }
 .countent-servicios{
 	background-color: white;
@@ -911,8 +885,7 @@ box-shadow: 2px -2px 12px #000;
 .accordion-inner{
 	background: rgba(207, 158, 0, 0.18);
 }
-
-/*--------------servicio-----------------------*/
+/*--------------servicio1-----------------------*/
 
 .ch-info-wrap, 
 .ch-info{
@@ -1044,43 +1017,7 @@ background: rgba(11, 72, 138, 0.35);
 	width: 191px;
 	height: 39px;
 }
-
-.direccion{
-	background: black;
+.ch-info{
+	margin: 12px 0;
 }
-
-
-
-/* --- JMT ------*/
-.titulo_proyecto{
-	background-color: #005580;
-	color: #f9f9f9 !important;
-	font-size: 20px;
-	line-height: 40px;
-	margin: 15px 0 25px;
-	font-family: inherit;
-	font-weight: bold;
-	color: inherit;
-	text-rendering: optimizelegibility;
-	display: block;
-	padding: 0px 10px;
-}
-.proyecto_div li{
-	margin:10px 0px 0px 25px; 
-}
-.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
-	color: #ffffff;
-	background-color: transparent;
-	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.0);
-	-moz-box-shadow: inset 0 px 0px rgba(0, 0, 0, 0.0);
-	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.0);
-	text-shadow: 0px 0px 1px #FFFFFF, 0px 0px 0px #FFFFFF, 0px 0px 0px #FFFFFF !important;
-}
-.brand:hover{
-	text-shadow: 0px 0px 1px #FAFA85, 
-	0px 0px 1px #FAFA85, 
-	0px 0px 1px #FAFA85 !important;
-	color: rgb(245, 245, 79) !important;
-}
-/* --- END JMT ------*/
-
+/*-------------fin servicis1*/
