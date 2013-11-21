@@ -1133,3 +1133,13 @@ overflow: hidden;
 transition: height 0.35s ease;
 border-radius: 0px 0px 15px 15px;
 }
+
+
+
+/*-------------------------------oferta laboral--------------------------------*/
+.content-labor{
+	/*background-color: rgba(241, 241, 58, 0.87);*/
+	padding: 5px;
+	border-radius: 15px;
+	margin:5px;
+}
