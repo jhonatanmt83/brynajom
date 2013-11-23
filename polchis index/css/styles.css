@@ -282,16 +282,7 @@ border-width: 0 0 0px;
 
 
 .navbar-inner{
-	/*background: rgb(26,78,156); /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 
-	/*background: -moz-linear-gradient(top, rgba(26,78,156,1) 0%, rgba(0,108,216,1) 50%, rgba(26,78,156,1) 100%); /* FF3.6+ */
-	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(26,78,156,1)), color-stop(50%,rgba(0,108,216,1)), color-stop(100%,rgba(26,78,156,1))); /* Chrome,Safari4+ */
-	/*background: -webkit-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Chrome10+,Safari5.1+ */
-	/*background: -o-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* Opera 11.10+ */
-	/*background: -ms-linear-gradient(top, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* IE10+ */
-	/*background: linear-gradient(to bottom, rgba(26,78,156,1) 0%,rgba(0,108,216,1) 50%,rgba(26,78,156,1) 100%); /* W3C */
-background: #1A4E9C;s
 }
 
 
@@ -834,15 +825,39 @@ h2.resp-accordion:first-child {
 
 /*================================00000 SERVICIOS 00000==================================*/
 
+.ayuda1{
+	margin-top:70px;
+}
+.informacion{
+background: rgb(83, 2, 2);
+padding: 12px 12px 12px 12px;
+border-radius: 29px;
+margin-top: 12px;
+}
+.servicios{
+	background: rgba(133, 133, 133, 1);
+border-radius: 15px;
+}
+.bot-ser{
+	color: rgb(255, 255, 255);
+font-weight: bolder;
+background: rgb(17, 30, 99);
+}
+
 #list3 { }
 #list3 ul { list-style-image: url("../img/arrow.png"); color:#6C99CA; font-size:12px; }
 #list3 ul li { 
 	line-height:20px;
 	margin: 5px;
-	background-color:#005580;
-	padding: 2px; 
+	background-color: #80000F;
+	padding: 2px;
+	border-radius: 12px 0px 12px 0px;
+	font-weight: bold;
+font-size: 10px;
 }
-
+#list3 a{
+	text-decoration: none;
+}
 #list3 ul li:hover { 
 	line-height:20px;
 	margin: 5px;
@@ -894,7 +909,7 @@ h2.resp-accordion:first-child {
 .teaser2 img {
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 }
 .content-servicio {
 	padding: 16px;
